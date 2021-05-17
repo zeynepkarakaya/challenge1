@@ -37,7 +37,7 @@
 	grid-area: form;
 }
 
-.form-group {
+.form-label {
 	padding: 0.25rem 0;
 	padding-bottom: 3rem;
 }
@@ -87,12 +87,12 @@ button {
 	opacity: 0.5;
 }
 
-.form-group label{
+.form-label label{
 	display: block;
 	line-height: 2rem;
 }
 
-.form-control {
+.form-input {
 	width: 50%;
 	padding: 0.4rem;
 	font-size: 1rem;
