@@ -1,12 +1,12 @@
 
-document.getElementById('formSubmit').onsubmit= function validateForm() {
-  var x = document.getElementById('username').value;
-  if (x == '') {
+document.getElementById('formSubmit').onsubmit= function() {
+  var usernameInput = document.getElementById('username').value;
+  if (usernameInput == '') {
     document.getElementById('message').innerHTML = 'Username must be filled out';
     return false;
   }
-  var y = document.getElementById('password').value;
-  if (y == '') {
+  var passwordInput = document.getElementById('password').value;
+  if (passwordInput == '') {
     document.getElementById('message').innerHTML = 'Password must be filled out';
     return false;
   }
