@@ -1,0 +1,111 @@
+#consoleBox {
+	background-color: #FFFFFF;
+	color: #000000;
+	display: flex;
+	flex-direction: column;
+	grid-gap: 30px;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 5vh 20vw 5vh 20vw;
+	text-align: center;
+	line-height: 1.5rem;
+	padding: 1rem;
+}
+
+#title {
+	text-align: center;
+}
+
+.consoleItem {
+	color: #FF0000;
+  font-size: 20px;
+
+}
+
+.h1 {
+  line-height: 3rem;
+}
+
+#kph {
+  line-height: 2rem;
+}
+
+#addquote {
+  cursor: pointer;
+  background-color: #000000;
+  color: #FFFFFF;
+  user-select: none;
+}
+
+#message {
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #FFFFFF;
+  margin: 0px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: #000000;
+  color: #FFFFFF;
+/*  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;*/
+  user-select: none;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+
+form #decrease {
+  margin-right: -4px;
+}
+
+form #increase {
+  margin-left: -4px;
+}
+
+form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+
+input#number {
+  text-align: center;
+  border: none;
+  margin: 0px;
+  width: 200px;
+  height: 40px;
+  color: #FF0000;
+    padding-bottom: 2px;
+    font-family: BankGothic;
+    font-size: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#speedTable {
+  display: flex;
+
+
+}

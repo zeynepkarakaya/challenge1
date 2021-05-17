@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Red Planet ITSI v003223</title>
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+        <link rel="stylesheet" type="text/css" href="styles/homepage.css">
+		<script src="scripts/main.js" defer></script>
+	</head>
+	<body>
+        <div class="grid_container">
+            <header>
+                <div class="container">
+                    <nav id="navbar">
+                        <div id="shutdown">
+                            <a href="exit.html">Shut Down</a>
+                        </div>
+                        <div id="title">
+                            <a href="index.html" id="programname"> RED PLANET ITSI v.003223</a>
+                        </div>
+                        <div id="help">
+                            <a href="help_homepage.html">Help</a>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div id="welcome">
+                    <p>Welcome to spaceship control system.</p>
+                    <p>Login to continue.</p>
+                </div>
+                <div id="form">
+                    <form name="loginForm" method="post" action="console.html" id="formSubmit">
+                        <div class="form-group">
+                            <p id="message"></p>
+                            <label for="username">Username</label>
+                            <input 
+                                type="text" 
+                                class="form-control" 
+                                name="username" 
+                                id="username" 
+                                />
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input 
+                                type="password" 
+                                class="form-control" 
+                                name="password" 
+                                id="password" 
+                                />
+                        </div>
+                        <button type="submit" id= "login" class="button">LOGIN</button>
+                    </form>
+                </div>           
+            </main>
+            <footer>
+                <div class="footer">
+                    <p>mission to Mars 2030, all righst reserved</p>
+                </div>
+            </footer>
+        </div>
+        
+	</body>
+</html>

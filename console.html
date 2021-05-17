@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Red Planet ITSI v003223</title>
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+        <link rel="stylesheet" type="text/css" href="styles/console.css">
+		<script src="scripts/console.js" defer></script>
+	</head>
+	<body>
+        <div class="grid_container">
+            <header>
+                <div class="container">
+                    <nav id="navbar">
+                        <div id="shutdown">
+                            <a href="exit.html">Shut Down</a>
+                        </div>
+                        <div id="title">
+                            <a href="console.html" id="programname"> RED PLANET ITSI v.003223</a>
+                        </div>
+                        <div id="help">
+                            <a href="help.html">Help</a>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <section id="console">
+                <h1 id="title">SHIP INFORMATION CONSOLE</h1>
+                <div id="consoleBox">
+                    <div id="fuel">
+                        <h1 class="h1">FUEL</h1>
+                        <p class="consoleItem" id="test">5000</p>
+                        <p>m3 liquid hydrogene</p>
+                    </div>
+                    <div id="speed">
+                        <h1 class="h1">SPEED</h1>
+                        <form class="consoleItem" id="speed">
+                          <div class="value-button" id="decrease" value="Decrease Value">-</div>
+                          <input type="number" id="number" value="39600" readonly />
+                          <div class="value-button" id="increase" value="Increase Value">+</div>
+                        </form>
+                        <p id="kph"> kilometeres per hour </p>
+                    </div>
+                    <div id="eta">
+                        <h1 class="h1">ETA (Estimated Tıme of Arrival)</h1>
+                        <p class="consoleItem" id="countdown"></p>
+                    </div>
+                    <div id="quote">
+                        <h1 class="h1">MESSAGE BOX</h1>
+                        <p class="consoleItem" id="message"></p>
+                        <p id="addquote">(1) New Message</p>
+                    </div> 
+                </div>
+            </section>
+            <footer>
+                <div class="footer">
+                    <p>mission to Mars 2030, all righst reserved</p>
+                </div>
+            </footer>
+        </div>
+
+	</body>
+</html>

@@ -1,0 +1,103 @@
+
+
+/*Page Container*/
+
+.grid-container {
+	display: grid;
+	grid-template-areas: 
+	'header header header'
+	'welcome welcome welcome'
+	'form form form'
+	'footer footer footer';
+	justify-content: space-between;
+	align-content: center;
+	grid-gap: 5px;
+	align-items: center;
+}
+
+
+#welcome {
+	grid-area: welcome;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 1vh 20vw 4.75vh 20vw;
+	text-align: center;
+	line-height: 1.5rem;
+	padding: 1rem;
+}
+
+#message {
+	color: #ff0000;
+}
+
+/* Form Section */
+
+#form {
+	grid-area: form;
+}
+
+.form-group {
+	padding: 0.25rem 0;
+	padding-bottom: 3rem;
+}
+
+form {
+	color: #000000;
+	background-color: #FFFFFF;
+	padding: 4rem;
+	padding-top: 1.25rem;
+	padding-bottom: 2rem;
+	text-align: center;
+/*	border-radius: 15px;*/
+	margin: 5vh 30vw 2.8vh 30vw;
+}
+
+input[type="text"] {
+	min-height: 15px;
+	border-radius: 5px;
+	border:1px solid #cccccc;
+}
+
+input[type="password"] {
+	min-height: 15px;
+	border-radius: 5px;
+	border:1px solid #cccccc;
+}
+
+.button {
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	background: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button {
+	font-family: BankGothic;
+
+}
+
+.button:hover {
+	opacity: 0.8;
+}
+
+.button.hover {
+	opacity: 0.5;
+}
+
+.form-group label{
+	display: block;
+	line-height: 2rem;
+}
+
+.form-control {
+	width: 50%;
+	padding: 0.4rem;
+	font-size: 1rem;
+	resize: none;
+	border-radius: 5px;
+}
+
+
