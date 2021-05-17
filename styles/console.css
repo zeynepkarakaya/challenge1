@@ -20,7 +20,6 @@
 .consoleItem {
 	color: #FF0000;
   font-size: 20px;
-
 }
 
 .h1 {
@@ -61,11 +60,6 @@ form {
   padding: 11px 0;
   background: #000000;
   color: #FFFFFF;
-/*  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;*/
   user-select: none;
 }
 
@@ -93,9 +87,9 @@ input#number {
   width: 200px;
   height: 40px;
   color: #FF0000;
-    padding-bottom: 2px;
-    font-family: BankGothic;
-    font-size: 20px;
+  padding-bottom: 2px;
+  font-family: BankGothic;
+  font-size: 20px;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -106,6 +100,4 @@ input[type=number]::-webkit-outer-spin-button {
 
 #speedTable {
   display: flex;
-
-
 }
